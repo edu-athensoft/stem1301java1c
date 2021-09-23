@@ -7,6 +7,7 @@ package com.athensoft.demo.m5.s64.demo1;
  *
  */
 public class BicycleApp {
+
 	public static void main(String[] args) {
 		Bicycle bike1 = new Bicycle(10,15,1);
 		Bicycle bike2 = new Bicycle(10,15,2);
@@ -15,6 +16,7 @@ public class BicycleApp {
 		System.out.println(bike1);
 		System.out.println(bike2);
 		System.out.println(bike3);
-		
+
 	}
+
 }

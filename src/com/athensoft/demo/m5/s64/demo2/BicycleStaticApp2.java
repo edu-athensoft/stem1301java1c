@@ -6,8 +6,7 @@ package com.athensoft.demo.m5.s64.demo2;
  * @author Athens
  *
  */
-public class BicycleApp2 {
-
+public class BicycleStaticApp2 {
 	public static void main(String[] args) {
 		Bicycle2 bike1 = new Bicycle2(10, 15, 1);
 		System.out.println("shared id=" + bike1.getID());
@@ -19,5 +18,4 @@ public class BicycleApp2 {
 		System.out.println("shared id=" + bike3.getID());
 
 	}
-
 }

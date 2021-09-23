@@ -1,4 +1,4 @@
-package com.athensoft.demo.m5.s64.demo1;
+package com.athensoft.demo.m5.s64.demo2;
 
 /**
  * No instances are required.
