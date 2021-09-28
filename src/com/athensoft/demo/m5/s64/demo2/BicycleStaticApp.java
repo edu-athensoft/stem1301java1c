@@ -1,6 +1,7 @@
 package com.athensoft.demo.m5.s64.demo2;
 
 /**
+ * static fields do not need instances
  * No instances are required.
  * @author Athens
  *
