@@ -1,6 +1,6 @@
-package com.athensoft.demo.m5.s64.demo3;
+package com.athensoft.demo.m5.s64.demo4;
 
-public class DemoStaticBlock {
+public class DemoStaticBlock4 {
 	 
     
     public static void main(String args[]) {
