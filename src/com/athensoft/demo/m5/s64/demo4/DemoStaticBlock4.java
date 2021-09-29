@@ -1,8 +1,6 @@
 package com.athensoft.demo.m5.s64.demo4;
 
-public class DemoStaticBlock4 {
-	 
-    
+public class DemoStaticBlock4 {    
     public static void main(String args[]) {
     	// Although we don't have an object of Test, static block is 
         // called because i is being accessed in the following statement.
@@ -10,11 +8,9 @@ public class DemoStaticBlock4 {
     }
 }
 
-
 class Test {
     static int i;
-    int j;
-      
+    int j;      
     // start of static block 
     static {
         i = 10;
