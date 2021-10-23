@@ -1,6 +1,7 @@
 package com.athensoft.demo.m5.s64.demo2;
 
 /**
+ * Java file: BicycleStaticApp2.java
  * instances share static fields
  * 
  * @author Athens

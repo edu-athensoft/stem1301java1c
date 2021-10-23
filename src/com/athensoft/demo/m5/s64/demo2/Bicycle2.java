@@ -1,5 +1,10 @@
 package com.athensoft.demo.m5.s64.demo2;
 
+/**
+ * Java file: Bicycle2.java
+ * @author Athens
+ *
+ */
 public class Bicycle2 {
 
 	private int cadence;
