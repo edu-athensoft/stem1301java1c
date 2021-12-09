@@ -9,5 +9,12 @@ public class CompanyClient {
 		//public attributes, not safe
 		System.out.println(m1.name);
 		System.out.println(m1.salary);
+		
+		m1.name = "Peter";
+		System.out.println(m1);
+		
+		m1.salary = 5000;
+		System.out.println(m1);
+		
 	}
 }
