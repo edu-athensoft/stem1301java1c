@@ -11,8 +11,8 @@ public class Address {
 	
 	public Address() {}
 	
-	public Address(String streeNo, String streetName, String suitNo, String postalCode) {
-		this.streetNo = streeNo;
+	public Address(String streetNo, String streetName, String suitNo, String postalCode) {
+		this.streetNo = streetNo;
 		this.streetName = streetName;
 		this.suitNo = suitNo;
 		this.postalCode = postalCode;
@@ -20,6 +20,13 @@ public class Address {
 
 	public String getStreetNo() {
 		return streetNo;
+	}
+	
+	public String getAddress() {
+		String address = "";
+		address += this.suitNo + "-"+ this.streetNo +" "+this.streetName+" "
+		        + this.city+" "+ this.province+" "+ this.country+ " "+ this.postalCode;
+		return address;
 	}
 
 	public void setStreetNo(String streetNo) {
